@@ -1,0 +1,18 @@
+
+.background {
+  fill: #eee;
+}
+
+line.row_line, line.col_line {
+  stroke: #fff;
+  stroke-width: 2;
+}
+
+text.active {
+  fill: red;
+}
+
+.cell {
+  cursor: pointer;
+}
+

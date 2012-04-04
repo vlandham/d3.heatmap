@@ -1,0 +1,57 @@
+h2. Usage
+
+<pre>
+git clone git@github.com:vlandham/vis.git
+cd vis
+git checkout -b interesting_new_bar_chart
+# ... code away
+</pre>
+
+
+h2. Contents
+
+* @/code@
+** used for storing scripts / rough data
+* @/@
+** main vis area
+* @/coffee/@
+** coffeescript files. Example @vis.coffee@ setup
+* @/data/@
+** data dump for @.csv@ and @.json@ files
+* @/js/@
+** javascript goes here. most in @libs@ directory
+
+h2. Run
+
+<pre>
+thin start
+</pre>
+
+h2. Requirments
+
+@thin@, @sinatra@. @Gemfile@ provided.
+
+@bundle install@
+
+h2. Contents
+
+h3. Twitter Bootstrap
+
+* 2.0
+
+h3. html5boilerplate
+
+* 2.0 Aug 10th
+
+h3. d3.js
+
+* v1.7.0
+
+h3. coffee-script.js
+
+* v1.2.0
+
+h3. jQuery
+
+* v1.6.2
+
